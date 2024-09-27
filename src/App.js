@@ -7,7 +7,7 @@ import { Layout } from './components/Layout/Layout';
 function App() {
   return (
     <Layout>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<PostListPage />} />
           <Route path="posts/:id" element={<PostPage />} />
