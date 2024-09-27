@@ -1,0 +1,22 @@
+.container {
+    padding: 40px;
+    background-color: rgb(233, 227, 227);
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+  
+  .post {
+    margin-bottom: 20px;
+  }
+
+  .sub {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .commentTitle {
+    font-size: 18px;
+    font-weight: 500;
+  }
